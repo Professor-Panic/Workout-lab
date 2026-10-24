@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Pipenv
+.venv/
+Pipfile.lock
+
+# Flask / SQLAlchemy
+instance/
+server/app.db
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
