@@ -11,6 +11,7 @@ Pipfile.lock
 # Flask / SQLAlchemy
 instance/
 server/app.db
+migrations/
 
 # IDE
 .vscode/

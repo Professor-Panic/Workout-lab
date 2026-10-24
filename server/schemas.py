@@ -26,7 +26,7 @@ class WorkoutExerciseSchema(Schema):
     duration_seconds = fields.Int(validate=validate.Range(min=0), allow_none=True)
 
 
-# --- Nested schemas used only for the single-resource detail views ---
+# --faaaaaaaah ---
 
 class WorkoutExerciseForWorkoutSchema(Schema):
     """A WorkoutExercise row as shown inside GET /workouts/<id>."""
@@ -60,7 +60,7 @@ class ExerciseDetailSchema(ExerciseSchema):
     )
 
 
-# Ready-to-use instances
+# instances are ready
 exercise_schema = ExerciseSchema()
 exercises_schema = ExerciseSchema(many=True)
 exercise_detail_schema = ExerciseDetailSchema()
