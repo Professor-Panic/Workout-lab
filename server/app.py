@@ -3,7 +3,7 @@ from flask_migrate import Migrate
 from marshmallow import ValidationError
 from sqlalchemy.exc import IntegrityError
 from models import Exercise, Workout, WorkoutExercise, db
-from server.schemas import (
+from schemas import (
     exercise_detail_schema,
     exercise_schema,
     exercises_schema,

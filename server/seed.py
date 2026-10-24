@@ -1,6 +1,6 @@
 from datetime import date
 
-from server.app import app
+from app import app
 from models import Exercise, Workout, WorkoutExercise, db
 
 with app.app_context():
